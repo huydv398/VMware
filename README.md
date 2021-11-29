@@ -3,7 +3,7 @@ with Vcenter 7.0.0
 
 ## Lý thuyết
 1. [Part-1 ](Docs/.md)
-1. [Part-2 ](Docs/6-Role-Permission-privileges.md)
+1. [Part-2 ](/Docs/6-Role-Permission-privileges.md)
 1. [Part-3 ](Docs/.md)
 1. [Part-4 ](Docs/.md)
 1. [Part-5 ](Docs/.md)
