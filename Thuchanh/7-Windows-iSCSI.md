@@ -57,6 +57,9 @@ Chọn phân vùng E: làm virtual disk
 ![image34](/images/Screenshot_34.png)
 
 ![image35](/images/Screenshot_35.png)
+
+Thêm địa chỉ IP, IP này là IP của các địa chỉ Của máy mà là server đích nhận chia sẻ tài nguyên Storage. 1 server cũng có thể có nhiều IP backup khi sử dụng Storage
+
 ![image36](/images/Screenshot_36.png)
 ![image37](/images/Screenshot_37.png)
 ![image38](/images/Screenshot_38.png)
@@ -133,9 +136,3 @@ Kết quả:
 
 ![image](/images/Screenshot_60.png)
 
-## Các loại khi tạo một datastores
-![image](/images/Screenshot_62.png)
-* Create new VMFS datastore: Tạo một VMFS mới trên thiết bị Disk đang được kết nối đến local(có thể là Disk đang cắm tại local, Hoặc iSCSI virtual Disk đã được kết nối đến local ESXi)
-* Add an extent to existing VMFS datastore: thêm kích thước của một datastore hiện có bằng cách thêm một phạm vi trên DISK khác
-* Expand an existing VMFS datastore extent: Tăng kích thước của datastore hiện có
-* Mount NFS datastore: tạo một datastore mới bằng cách gắn một ổ đĩa từ NFS
