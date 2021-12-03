@@ -33,7 +33,7 @@ Ly_thuyet/6-Role-Permission-privileges
 1. [Part-7.1 TrueNAS (formerly FreeNAS) installation procedure ](/Thuchanh/7.1-TrueNAS.md)
 1. [Part-7.2 TrueNAS NFS sharing](/Thuchanh/7.2-TrueNAS-NFS.md)
 1. [Part-7.3 TrueNAS iSCSI sharing](/Thuchanh/7.3-TrueNAS-iSCSI.md)
-1. [Part-8 ](/Thuchanh/.md)
+1. [Part-8 Configuring Multi Pathing Network for VMWare ESXi Storage Access](/Thuchanh/8.Multi-Pathing-Network.md)
 1. [Part-9 ](/Thuchanh/.md)
 1. [Part-10 ](/Thuchanh/.md)
 1. [Part-11 ](/Thuchanh/.md)
