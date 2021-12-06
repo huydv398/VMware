@@ -37,7 +37,7 @@ Ly_thuyet/6-Role-Permission-privileges
 1. [Part - 9 - How to mapping LUN and Create Datastore in vSphere vCenter Server ](/Thuchanh/9.Mapping-LUN-and-Create-Datastore.md)
 1. [Part - 10 - How to increase or expend the capacity of a VMWare VMFS Datastore](/Thuchanh/10.How-to-increase-or-expend-the-capacity-of-a-VMWare-VMFS-Datastore.md)
 1. [Part - 11 How to Create vSphere Storage DRS Datastore Cluster](/Thuchanh/11.How-to-Create-vSphere-Storage-DRS-Datastore-Cluster.md)
-1. [Part-12 ](/Thuchanh/)
+1. [Part-12 ](/Thuchanh/12.How-to-Create-and-Deploy-VMware-Distributed-Switch.md)
 1. [Part-13 ](/Thuchanh/)
 1. [Part-14 ](/Thuchanh/)
 1. [Part-15 ](/Thuchanh/)
