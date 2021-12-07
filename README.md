@@ -28,7 +28,7 @@ Ly_thuyet/6-Role-Permission-privileges
 1. [Part-3 ](/Thuchanh/.md)
 1. [Part-4 ](/Thuchanh/.md)
 1. [Part-5 ](/Thuchanh/.md)
-1. [Part-6 ](/Thuchanh/.md)
+1. [Part- 6 Cài đặt vCenter lên VMware Workstation - ver 7.0.2](/Thuchanh/Install-vCenter7-in-VmwareWorkStation.md)
 1. [Part - 7 Configure Windows iSCSI Target Server for VMware vCenter or ESXi ](/Thuchanh/7-Windows-iSCSI.md)
 1. [Part - 7.1 TrueNAS (formerly FreeNAS) installation procedure ](/Thuchanh/7.1-TrueNAS.md)
 1. [Part - 7.2 TrueNAS NFS sharing](/Thuchanh/7.2-TrueNAS-NFS.md)
