@@ -41,7 +41,7 @@ Ly_thuyet/6-Role-Permission-privileges
 1. [Part - 12.0 Description Migrate Networking](/Thuchanh/12.Description.md)
 1. [Part - 12.1 Create and Deploy VMware Distributed Switch Part-2](/Thuchanh/12.1.Understand-VMware-Stardard-to-Distributed-Switch.md)
 1. [Part - 13  Create and Deploy VMWare vMotion Network](/Thuchanh/13-Create-and-Deploy-VMWare-vMotion-Network.md)
-1. [Part - 14. How to do vMotion & Storage vMotion on VMWare vCenter ](/Thuchanh/14.vMotion.md)
+1. [Part - 14. How to do vMotion & Storage vMotion on VMWare vCenter ](/Thuchanh/14.Storage-vMotion.md)
 1. [Part-15 ](/Thuchanh/)
 1. [Part-16 ](/Thuchanh/)
 1. [Part-17 ](/Thuchanh/)
