@@ -42,7 +42,7 @@ Ly_thuyet/6-Role-Permission-privileges
 1. [Part - 12.2 Create and Deploy VMware Distributed Switch Part-2](/Thuchanh/12.2-Understand-VMware-Stardard-to-Distributed-Switch.md)
 1. [Part - 13  Create and Deploy VMWare vMotion Network](/Thuchanh/13-Create-and-Deploy-VMWare-vMotion-Network.md)
 1. [Part - 14. How to do vMotion & Storage vMotion on VMWare vCenter ](/Thuchanh/14.Storage-vMotion.md)
-1. [Part - 15.How to Create VMWare Cluster and enable DRS vSphere vCenter](/Thuchanh/15.VMWare-Cluster&enable-DRS.md)
+1. [Part - 15.How to Create VMWare Cluster, enable DRS & HA vSphere vCenter](/Thuchanh/15.VMWare-Cluster&enable-DRS&HA.md)
 1. [Part-16 ](/Thuchanh/)
 1. [Part-17 ](/Thuchanh/)
 1. [Part-18 ](/Thuchanh/)
