@@ -43,7 +43,7 @@ Ly_thuyet/6-Role-Permission-privileges
 1. [Part - 13  Create and Deploy VMWare vMotion Network](/Thuchanh/13-Create-and-Deploy-VMWare-vMotion-Network.md)
 1. [Part - 14. How to do vMotion & Storage vMotion on VMWare vCenter ](/Thuchanh/14.Storage-vMotion.md)
 1. [Part - 15.How to Create VMWare Cluster, enable DRS & HA vSphere vCenter](/Thuchanh/15.VMWare-Cluster&enable-DRS&HA.md)
-1. [Part-16 ](/Thuchanh/)
+1. [Part - 16.How to Create Virtual Machine on vSphere vCenter Server 7 or ESXi 7 ](/Thuchanh/16.Create-VM.md)
 1. [Part-17 ](/Thuchanh/)
 1. [Part-18 ](/Thuchanh/)
 1. [](/Thuchanh/)
