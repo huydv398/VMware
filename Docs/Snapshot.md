@@ -18,3 +18,28 @@ Có thể ảnh hưởng đến hiệu suất của máy ảo, vì chúng sử d
 * Không hỗ trợ chụp nhanh các máy ảo được định cấu hình để chia sẻ bus hoặc hỗ trợ thiết bị I/O PCI vSphere Direct Path.
 * Snapshot không được khuyến khích sử dụng làm phương tiện sao lưu và phục hồi vì tiêu thụ dung lượng đĩa lớn và ảnh hưởng đến hiệu suất máy ảo.
 * Snapshot các máy ảo với ổ cứng lớn hơn 2 TB có thể mất quá nhiều thời gian.
+
+## Snapshot Files
+VMDK là Disk Image Files - Virtual Machine Disk File, dưới định dạng N/A được phát triển bởi VMware. Virtual Disk lưu trữ nội dung của một máy ảo VMware trên ổ cứng vật lý; có thể được truy cập như một ổ cưng vật lý với phần mềm VMware;
+
+Bao gồm các tệp được lưu trữ trên thiết bị lưu trữ được hỗ trợ. Thao tác Snapshot sẽ tạo các tệp .vmdk , -delta.vmdk , .vmsd và .vmsn . Theo mặc định, đĩa đầu tiên và tất cả các đĩa delta được lưu trữ với tệp .vmdk cơ sở. Các tệp .vmsd và .vmsn được lưu trữ trong thư mục máy ảo.
+
+**Delta disk files**- Tệp .vmdk
+mà hệ điều hành-OS có thể ghi vào. Đĩa delta đại diện cho sự khác biệt giữa trạng thái hiện tại của đĩa ảo và trạng thái tồn tại tại thời điểm mà Snapshot trước đó được thực hiện. Khi bạn tạo Snapshot, trạng thái của đĩa ảo được giữ nguyên, operating system-OS ngừng ghi vào đây và một delta hoặc đĩa con được tạo.</br>
+Một delta disk có hai tệp. Một là tệp bộ mô tả nhỏ chứa thông tin về Virtual disk, chẳng hạn như hình học và thông tin mối quan hệ cha-con. Cái còn lại là tệp tương ứng chứa dữ liệu raw.
+
+Các tệp tạo nên đĩa delta được gọi là child disks hoặc redo log -nhật ký làm lại.
+
+**Flat file**
+
+Tệp -flat.vmdk là một trong hai tệp bao gồm base disk. Flat disk chứa dữ liệu raw cho base disk. Tệp này không xuất hiện dưới dạng tệp riêng biệt trong Datastore Browser.
+
+**Database file**
+
+Tệp .vmsd chứa thông tin Snapshot của máy ảo và là nguồn thông tin chính cho Snapshot Manage. Tệp này chứa các mục nhập dòng, xác định mối quan hệ giữa các ảnh chụp nhanh và giữa các đĩa con cho mỗi ảnh chụp nhanh.
+
+**Memory file**
+
+Tệp .vmsn bao gồm trạng thái hoạt động của máy ảo. Ghi lại trạng thái bộ nhớ của máy ảo cho phép bạn hoàn nguyên về trạng thái máy ảo đã bật. Với nonmemory snapshots, bạn chỉ có thể hoàn nguyên về trạng thái máy ảo đã tắt. Memory snapshots mất nhiều thời gian để tạo hơn nonmemory snapshots. Thời gian máy chủ ESXi cần để ghi bộ nhớ vào đĩa phụ thuộc vào dung lượng bộ nhớ mà máy ảo được cấu hình để sử dụng.
+Thao tác Snapshot sẽ tạo các tệp .vmdk , -delta.vmdk , vmsd và vmsn.
+

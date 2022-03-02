@@ -46,7 +46,7 @@ Ly_thuyet/6-Role-Permission-privileges
 1. [Part - 16. How to Create Virtual Machine on vSphere vCenter Server 7 or ESXi 7 ](/Thuchanh/16.Create-VM.md)
 1. [Part - 17. How to Create and Use OS Customization vSphere vCenter Server 7 ](/Thuchanh/17.OS-Customization.md)
 1. [Part - 18. How to Create and Configure Alarms in vSphere vCenter Server 7 ](/Thuchanh/18.Alarms.md)
-1. [Part - 19. How to Create and Manage Virtual Machine Snapshot in vCenter Server 7](/Thuchanh/19.Create&Manage-Snapshot.md)
+1. [Part - 19. How to Create and Manage Virtual Machine Snapshot in vCenter Server 7](/Thuchanh/19.Snapshot.md)
 1. [](/Thuchanh/)
 1. [](/Thuchanh/)
 1. [](/Thuchanh/)
